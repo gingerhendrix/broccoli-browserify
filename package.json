@@ -1,0 +1,33 @@
+{
+  "name": "broccoli-browserify",
+  "version": "0.0.1",
+  "description": "Browserify plugin for Broccoli",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jshint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gingerhendrix/broccoli-browserify"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "browserify"
+  ],
+  "author": "Gareth Andrew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gingerhendrix/broccoli-browserify/issues"
+  },
+  "homepage": "https://github.com/gingerhendrix/broccoli-browserify",
+  "dependencies": {
+    "broccoli-transform": "^0.1.1",
+    "rsvp": "^3.0.6",
+    "browserify": "^3.31.2",
+    "mkdirp": "^0.3.5",
+    "broccoli": "^0.2.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.4.4"
+  }
+}
