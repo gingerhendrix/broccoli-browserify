@@ -24,8 +24,7 @@
     "broccoli-transform": "^0.1.1",
     "rsvp": "^3.0.6",
     "browserify": "^3.31.2",
-    "mkdirp": "^0.3.5",
-    "broccoli": "^0.2.1"
+    "mkdirp": "^0.3.5"
   },
   "devDependencies": {
     "jshint": "^2.4.4"
