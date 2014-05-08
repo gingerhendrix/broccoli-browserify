@@ -1,6 +1,6 @@
 {
   "name": "broccoli-browserify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Browserify plugin for Broccoli",
   "main": "lib/index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "browserify"
   ],
   "author": "Gareth Andrew",
+  "contributors": [
+    "Michael Jackson (http://github.com/mjijackson)",
+    "Derek Kastner (http://github.com/dkastner)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gingerhendrix/broccoli-browserify/issues"
