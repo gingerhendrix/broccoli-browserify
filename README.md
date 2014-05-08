@@ -21,13 +21,34 @@ tree = browserify(tree, options);
 
 ## API
 
-### browserify(tree, options)
+### browserify(tree, options) 
 
-Options:
+* `tree`: A [broccoli tree](https://github.com/broccolijs/broccoli#plugin-api-specification) or a directory path as a string
+
+####Options
  
-* `entries` : Array of files to be used as entry points
-* `browserify` : Options passed to the browserify constructor see: https://github.com/substack/node-browserify#var-b--browserifyfiles-or-opts
-* bundle: Options passed to browserify bundle method see: https://github.com/substack/node-browserify#bbundleopts-cb
+* `entries` : (default `[]`) Array of files to be used as entry points
+* `outputFile`: (default `"./browserify.js"`) Output file
+* `browserify` : (default `{}`) Options passed to the [browserify constructor](https://github.com/substack/node-browserify#var-b--browserifyfiles-or-opts)
+* bundle:  (default `{}`) Options passed to [browserify bundle method](https://github.com/substack/node-browserify#bbundleopts-cb)
+
+## Changelog
+
+### MASTER
+
+* Updated to use broccoli-writer instead of deprecated broccoli-transform (thanks mjijackson)
+* Improved Readme file
+
+### 0.0.1 
+
+* Initial release
+
+
+## Contributors
+
+* [Gareth Andrew](http://github.com/gingerhendrix)
+* [Michael Jackson](http://github.com/mjijackson)
+
 
 ## License
 
